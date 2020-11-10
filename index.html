@@ -18,19 +18,38 @@
     <link rel="stylesheet" href="./styles/main.css">
 
     <!-- Css do footer -->
-    <link rel="stylesheet" href="./styles/footer.css">
-
+    <link rel="stylesheet" href="./styles/footer.css">  
 </head>
 <body>
     <header id="Header">
+
+        <div id="Menu"><!--Menu que será mostrado ao clicar no hamburger menu-->
+            <header id="MenuHiddenHeader">
+                <button onclick="HideMenu()">Hide</button>
+            </header>
+            <ul id="MenuHidden">
+                <li class="ItemsMenu">
+                    <a href="">Item do menu hamburger</a>
+                </li>
+                <li class="ItemsMenu">
+                    <a href="">Item do menu hamburger</a>
+                </li>
+                <li class="ItemsMenu">
+                    <a href="">Item do menu hamburger</a>
+                </li>
+            </ul>
+        </div>
+
         <nav id="NavSmallhidden">
-            <button>
+            <button onclick="ShowMenu()">
                 Menu
             </button>
             <button>
                 Botao header
             </button>
         </nav>
+
+    
 
         <nav id="NavGreat">
             GREAT   
@@ -64,5 +83,7 @@
 
     </footer>
     
+ <script src="./Js/Header.js"></script>
 </body>
+
 </html>

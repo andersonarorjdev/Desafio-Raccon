@@ -69,6 +69,36 @@
 
 }
 
+#Menu{
+    height: 100vh;
+    width:100vw;
+    background-color:#2571b7;
+    display:none;
+}
+
+#MenuHiddenHeader{
+    padding-top:4%;
+    padding-left: 3%;
+
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    align-items: center;
+}
+
+#MenuHidden{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    list-style: none;
+    padding-top:20%;
+
+}
+
+.ItemsMenu{
+  padding-bottom: 32%;  
+}
 
 
 #NavGreat{
