@@ -8,6 +8,27 @@ main{
     width: 100vw;
 }
 
+.SmallFirstText{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 14px;
+    padding:15px 20px;
+    color: #858585;
+
+}
+#FirstCardSmallSection p:nth-child(1){
+    margin-top: 40px;
+}
+
+#FirstCardSmallSection h1{
+    color: #2571b7;
+    font-size: 22px;
+   text-align: center;
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+
+
 #CardGrupSmall{
     display:flex;
     flex-direction:row;
@@ -17,8 +38,9 @@ main{
 }
 
 #CardGrupSmall div{
-    width: 100%;
+  width:90%;
 }
+
 .cards{
     background-color: red;
     margin:10px 10px;
@@ -26,25 +48,71 @@ main{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
-
-    padding:20px;
 }
 .cards img{
     grid-column-start: 1;
     grid-column-end:2;
-
     grid-row-start:1;
     grid-row-end:2;
 
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
 }
+.cards span{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+}
+
 .cards aside{
     grid-column-start: 2;
     grid-column-end:5;
 
     grid-row-start:1;
     grid-row-end:2;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items: start;
+}
+
+.cards h2{
+    color:#FFFFFF;
+    font-size: 16px;
+    font-weight: bolder;
+    margin-top: 20px;
+    text-align:start;
+
+}
+
+.TextCardSmall{
+    font-size:13px;
+    font-weight: bolder;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color:#FFFFFF;
+    text-align: start;
+}
+
+.cards:nth-child(1){
+    background-color: #0072c6;
+}
+.cards:nth-child(2){
+    background-color:#2c5898;
+}
+.cards:nth-child(3){
+    background-color: #207245;
+}
+.cards:nth-child(4){
+    background-color: #cb4a32;
+}
+.cards:nth-child(5){
+    background-color: #733781;
+}
+.cards:nth-child(6){
+    background-color: #00aff0;
 }
 
 .FirstCardsSmall{
@@ -54,7 +122,73 @@ main{
 }
 
 
+#SecondCardsGruop{
+    padding-top: 10%;
+}
 
+.cardsecond{
+    background-color: red;
+    margin:20px 10px;
+}
+
+
+
+
+#squares{
+   padding-bottom: 15%;
+
+}
+
+#squaregroup{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.squarescard{
+    border:1px solid black;
+    margin:0 15px;
+    padding:50px;
+}
+
+#ImageSection{
+    width:100vw;
+    height: 40vh;
+
+    padding-top: 15%;
+    padding-bottom:15%;
+
+    background-image: url('../images/Toghter.png');
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items: center;
+}
+
+#FormSection{
+    padding-top: 15%;
+}
+
+#FormGroup{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items: center;
+    height: 90vh;
+    background-color: red;
+
+    margin:0px 20px;
+}
+
+#FormGroup span{
+    display:flex;
+    flex-direction:column;
+}
+#FormGroup input{
+    width:80%;
+}
 /* Medias queries para a responsividade */
 
 @media(min-width:500px){
