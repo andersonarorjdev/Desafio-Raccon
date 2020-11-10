@@ -135,7 +135,6 @@ main{
 }
 
 .cardsecond{
-    background-color: red;
     margin:20px 10px;
 
     display:grid;
@@ -153,6 +152,60 @@ main{
     padding-top: 30px;
 }
 
+/* Aplicando estilização nos cards de forma individual pelo ID */
+#FirstSecondCard{
+    border-bottom: 4px solid #dedede;
+}
+#FirstSecondCard h2{
+    color:#7fba00;
+}
+
+#FirstSecondCard img{
+    background-color:#7fba00;
+    border-radius: 100px;
+    padding:10px;
+}
+
+#FirstSecondCard button{
+    border: 2px solid #7fba00;
+    padding:7px;
+    background-color:#FFFFFF;
+    color:#7fba00;
+}
+
+#SecondSecondCard{
+    border-bottom: 4px solid #dedede;
+}
+#SecondSecondCard h2{
+    color:#00a4ef;
+}
+#SecondSecondCard img{
+    background-color:#00a4ef;
+    border-radius: 100px;
+    padding:12px;
+}
+#SecondSecondCard button {
+    border: 2px solid #00a4ef;
+    padding:7px;
+    background-color:#FFFFFF;
+    color:#00a4ef;
+}
+
+#ThirtySecondCard h2{
+    color:#ffb900;
+}
+#ThirtySecondCard img{
+    background-color: #ffb900;
+    border-radius: 100px;
+    padding:2px;
+}
+#ThirtySecondCard button{
+    border: 2px solid #ffb900;
+    padding:7px;
+    background-color: #FFFFFF;
+    color:#ffb900;
+}
+
 .cardsecond span{
     grid-column-start: 1;
     grid-column-end:4;
@@ -162,9 +215,22 @@ main{
 
     display: flex;
     flex-direction:row-reverse;
+    justify-content:space-between;
 }
 
-.cardsecond button{
+.cardsecond span p{
+    color:#737373;
+    font-size:14px;
+    margin-right: 20px;
+}
+
+.cardsecond span img{
+    width: 70px;
+    height: 70px;
+    padding-right: 10px;
+}
+
+.cardsecond aside{
     grid-column-start:1;
     grid-column-end:3;
 
