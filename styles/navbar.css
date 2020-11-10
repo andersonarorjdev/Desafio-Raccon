@@ -47,7 +47,7 @@
     grid-column-start:1;
     grid-column-end:3;
 
-    grid-row-start: 8;
+    grid-row-start: 6;
     grid-row-end:9;
 
     display:flex;
@@ -77,6 +77,7 @@
     width:100vw;
     background-color:#2571b7;
     display:none;
+
 }
 
 #ButtonNavbar{
@@ -105,8 +106,7 @@
     justify-content:center;
     align-items: center;
     list-style: none;
-    padding-top:20%;
-
+    padding-top:20%; 
 }
 
 #CloseIcon{
@@ -143,9 +143,43 @@
 
 
 .ItemsMenu{
-  padding-bottom: 32%;  
+    padding-bottom: 32%; 
+    color:#FFFFFF;
+    font-size: 24px;
+    text-decoration: none; 
+    font-weight: bolder;
 }
 
+.ItemsMenu>a:hover{
+    border:3px solid #FFFFFF;
+    padding:10px 14px;
+    transition:0.3s;
+}
+
+#MainTitle{
+    font-size:40px;
+    color: #FFFFFF;
+    font-weight: bolder;
+
+    padding-bottom: 20px;
+}
+
+#MainSubTitle{
+    font-size:30px;
+    color: #FFFFFF;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#ButtonHeader>button{
+    font-size: 16px;
+    font-weight: bolder;
+    color:#FFFFFF;
+
+    padding:15px 30px;
+    background-color: #2571b7;
+    border: none;
+}
 
 #NavGreat{
 

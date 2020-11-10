@@ -1,10 +1,40 @@
-#Cards{
+#FirstCard{
+    width:97vw;
     height: 100vh;
 }
 
-.card{
-    background-color: red;
+#Texts{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
 
+    padding:30px;
+
+    font-size: 14px;
+    text-align: center;
+}
+
+#Texts p{
+    margin-top: 30px;
+    font-weight: bolder;
+    color:rgba(128, 128, 128, 0.92);
+}
+
+#FirstTitle{
+    padding-top:10%;
+    padding-bottom: 5%;
+    font-weight: bolder;
+    font-size: 20px;
+    color:rgb(9, 99, 177);
+}
+
+#FirstSubtitle{
+    color:rgba(128, 128, 128, 0.92);
+}
+
+/* EStilização para os */
+.card{
     display:grid;
 
     grid-template-columns: repeat(5,1fr);
@@ -13,41 +43,77 @@
    margin:20px 12px;
 }
 
+.card:nth-child(1){
+    background-color:rgb(9, 99, 177);
+}
+
+.card:nth-child(2){
+    background-color:rgb(12, 40, 150);
+}
+
+.card:nth-child(3){
+    background-color:rgb(3, 92, 13);
+}
+
+.card:nth-child(4){
+    background-color:rgb(218, 81, 6);
+}
+
+.card:nth-child(5){
+    background-color:rgb(66, 20, 159);
+}
+
+.card:nth-child(6){
+    background-color:rgb(24, 152, 206);
+}
 .cardicon{
 
     grid-row-start: 1;
     grid-row-end:3;
 
     grid-column-start: 1;
-    grid-column-end:3;
-
-     margin-top: 20px;
-     align-self: center;
-
+    grid-column-end:2;
+    align-self: center;
+    padding-left: 14%;
 }
+
 .cardtitle{
     grid-row-start: 1;
     grid-row-end:1;
 
-    grid-column-start: 3;
+    grid-column-start: 2;
     grid-column-end:6;
+
+    font-size:16px;
+    padding-top: 25px;
+    padding-left: 10px;
+    font-weight: bolder;
+    color:#FFFFFF;
 }
 .cardtext{
     grid-row-start: 2;
     grid-row-end:2;
     
-    grid-column-start: 3;
+    grid-column-start: 2;
     grid-column-end:6;
+
+    font-size: 13px;
+    padding:8px;
+    text-align:start;
+    color:#FFFFFF;
+    padding-bottom: 25px;
+
 }
 
 #SecondCard{
     width:100vw;
     height:100vh;
+    padding-top:100%;
 }
 
 
 #Squares{
-    padding-top:40%;
+    padding-top:100%;
     width:100vw;
     height:100vh;
 }
@@ -56,6 +122,9 @@
     width: 100vw;
     height: 50vh;
     background-image: url("../images/Toghter.png");
+    background-position-x: center;
+    background-position: cover;
+    
 }
 
 @media(min-width:768px){
