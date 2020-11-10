@@ -1,3 +1,6 @@
+/* Seletores GERAIS */
+
+/* Estilização da navbar responsiva */
 #Header{
     width:100vw;
     height:100vh;
@@ -76,8 +79,18 @@
     display:none;
 }
 
+#ButtonNavbar{
+    border:none;
+    padding:10px 15px; 
+    color:white;
+    font-size: 14px;
+    font-weight: bolder;
+    line-height: bolder;
+    background-color: #002050;
+}
+
 #MenuHiddenHeader{
-    padding-top:4%;
+    padding-top:3%;
     padding-left: 3%;
 
     display:flex;
@@ -95,6 +108,39 @@
     padding-top:20%;
 
 }
+
+#CloseIcon{
+    width: 30px;
+    height: 30px;
+}
+
+#CloseButtonMenu{
+    background:none;
+    border:none;
+}
+
+#CloseButtonMenu:hover{
+    border:2px solid #FFFFFF;
+    padding:2px 4px;
+    transition: 0.5s;
+}
+
+#MenuButton{
+    background:none;
+    border:none;
+}
+
+#MenuButton:hover{
+    border:2px solid #FFFFFF;
+    padding:2px 4px;
+    transition: 0.5s;
+}
+
+#IconMenu{
+    width: 30px;
+    height: 30px;
+}
+
 
 .ItemsMenu{
   padding-bottom: 32%;  

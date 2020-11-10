@@ -1,0 +1,65 @@
+#Cards{
+    height: 100vh;
+}
+
+.card{
+    background-color: red;
+
+    display:grid;
+
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(1, 1fr);
+
+   margin:20px 12px;
+}
+
+.cardicon{
+
+    grid-row-start: 1;
+    grid-row-end:3;
+
+    grid-column-start: 1;
+    grid-column-end:3;
+
+     margin-top: 20px;
+     align-self: center;
+
+}
+.cardtitle{
+    grid-row-start: 1;
+    grid-row-end:1;
+
+    grid-column-start: 3;
+    grid-column-end:6;
+}
+.cardtext{
+    grid-row-start: 2;
+    grid-row-end:2;
+    
+    grid-column-start: 3;
+    grid-column-end:6;
+}
+
+#SecondCard{
+    width:100vw;
+    height:100vh;
+}
+
+
+#Squares{
+    padding-top:40%;
+    width:100vw;
+    height:100vh;
+}
+
+#ImagePeople{
+    width: 100vw;
+    height: 50vh;
+    background-image: url("../images/Toghter.png");
+}
+
+@media(min-width:768px){
+    #CardsSmall{
+        display:none;
+    }
+}
