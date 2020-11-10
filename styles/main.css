@@ -238,12 +238,15 @@ main{
     grid-row-end:4;
 }
 
-
-
-
+/* Parte dos quadros */
 #squares{
    padding-bottom: 15%;
+}
 
+#Titlesquare{
+    color:#00a4ef;
+    text-align:center;
+    padding-bottom: 40px;
 }
 
 #squaregroup{
@@ -255,9 +258,19 @@ main{
 }
 
 .squarescard{
-    border:1px solid black;
+    border:3px solid #dedede;
     margin:0 15px;
-    padding:50px;
+    padding:40px 30px;
+}
+
+.squarescard h1{
+    color:#f25022;
+    text-align:center;
+}
+
+.squarescard p{
+    color:#979797;
+    text-align:center;
 }
 
 #ImageSection{
