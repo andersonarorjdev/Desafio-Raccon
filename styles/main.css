@@ -117,18 +117,62 @@ main{
 
 .FirstCardsSmall{
     
-
-  
 }
 
+#SecondCard{
+    padding-top: 10%;
+}
+
+#SecondCard h1{
+    text-align:center;
+    font-weight: bolder;
+    font-size: 28px;
+    color:#2571b7;
+}
 
 #SecondCardsGruop{
-    padding-top: 10%;
+    
 }
 
 .cardsecond{
     background-color: red;
     margin:20px 10px;
+
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.cardsecond h2{
+    grid-column-start: 1;
+    grid-column-end:4;
+
+    grid-row-start:1;
+    grid-row-end:2;
+}
+
+.cardsecond img{
+    grid-column-start:3;
+    grid-column-end:4;
+
+    grid-row-start:2;
+    grid-row-end:3;
+}
+
+.cardsecond p{
+    grid-column-start:1;
+    grid-column-end:3;
+
+    grid-row-start:2;
+    grid-row-end:3;
+}
+
+.cardsecond button{
+    grid-column-start:1;
+    grid-column-end:3;
+
+    grid-row-start:3;
+    grid-row-end:4;
 }
 
 
