@@ -6,8 +6,12 @@ footer{
 footer span{
     display:flex;
     flex-direction:row;
-    justify-content:space-around;
+    justify-content:center;
     align-items: center;
+}
+
+footer span img{
+    padding: 0px 6%
 }
 
 footer h4{
