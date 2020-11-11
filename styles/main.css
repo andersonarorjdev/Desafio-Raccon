@@ -302,13 +302,19 @@ main{
     padding-top: 15%;
 }
 
+#FormSection h1{
+    padding-bottom: 10%;
+    color: #737373;
+    text-align:center;
+}
+
 #FormGroup{
     display:flex;
     flex-direction:column;
     justify-content:space-around;
     align-items: center;
     height: 90vh;
-    background-color: red;
+    background-color: #e6e6e6;
 
     margin:0px 20px;
 }
@@ -316,9 +322,32 @@ main{
 #FormGroup span{
     display:flex;
     flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    width:100%;
+}
+
+#FormGroup span label{
+    color:#737373;
+    font-size: 11px;
+    align-self: start;
+    padding-left: 8px;
 }
 #FormGroup input{
-    width:80%;
+    width:95%;
+    border:none;
+    padding:10px 0px; 
+}
+#FormGroup input:hover{
+    border:2px solid #00a4ef;
+}
+
+#FormSection button{
+    color:#FFFFFF;
+    background-color: #00a4ef;
+    border:1px transparent;
+    padding:15px 30vw;
+
 }
 /* Medias queries para a responsividade */
 
