@@ -364,15 +364,119 @@ main{
         width: 100vw;
         display:flex;
         flex-direction:row;
+        flex-wrap: nowrap;
         justify-content:space-around;
         align-items: center;
+
+        padding-bottom: 5%;
+    }
+
+    .SecondCardsGreat{
+        margin:10px 6%;
+    }
+    
+    .SecondCardsGreat img{
+        border:1px solid transparent;
+        border-radius: 100px;
+
     }
 
     .SecondCardsGreat{
         display:flex;
         flex-direction:column;
-        background-color: red;
+        justify-content:space-between;
+        align-items: center;
     }
+
+    /* Estilização individual */
+
+    #FirstCardGreat img{
+        background-color:#7fba00;
+        padding:20px;
+        
+    }
+
+    #FirstCardGreat h1{
+        padding-top: 20px;
+        color:#7fba00;
+        padding-bottom: 12px;
+        border-bottom:3px solid #dedede;
+    }
+
+    #FirstCardGreat p{
+        padding: 10px 0px;
+        text-align: center;
+        color:#666666;
+        font-size: 14px;
+    }
+
+    #FirstCardGreat button{
+        margin-top:10px;
+        padding:10px 20px;
+
+        background-color:#FFFFFF;
+        border:2px solid #7fba00;
+        color:#7fba00;
+    }
+
+
+    #SecondCardGreat img{
+        background-color:#00a4ef;
+        padding:20px;
+    }
+
+    #SecondCardGreat h1{
+        padding-top: 20px;
+        color:#00a4ef;
+        padding-bottom: 12px;
+        border-bottom:3px solid #dedede;
+    }
+
+    #SecondCardGreat p{
+        padding: 10px 0px;
+        text-align: center;
+        color:#666666;
+        font-size: 14px;
+    }
+    
+    #SecondCardGreat button{
+        margin-top:10px;
+        padding:10px 20px;
+
+        background-color:#FFFFFF;
+        border:2px solid #00a4ef;
+        color:#00a4ef;
+    }
+
+
+    #ThityCardGreat img{
+        background-color:#ffb900;
+        padding:20px;
+    }
+
+    #ThityCardGreat h1{
+        padding-top: 20px;
+        color:#ffb900;
+        padding-bottom: 12px;
+        border-bottom:3px solid #dedede;
+    }
+
+    #ThityCardGreat p{
+        padding: 10px 0px;
+        text-align: center;
+        color:#666666;
+        font-size: 14px;
+    }
+
+    #ThityCardGreat button{
+        margin-top:10px;
+        padding:10px 20px;
+
+        background-color:#FFFFFF;
+        border:2px solid #ffb900;
+        color:#ffb900;
+    }
+
 /* Parte dos quadros */
 #squares{
    padding-bottom: 15%;
@@ -504,7 +608,7 @@ main{
         display:none; 
     }
 
-    #SecondCardGreat{
+    #SecondCardGreatSection{
         display:none;
     }
 }
