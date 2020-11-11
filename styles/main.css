@@ -115,10 +115,6 @@ main{
     background-color: #00aff0;
 }
 
-.FirstCardsSmall{
-    
-}
-
 #FirstCardGreatSection{
   padding-top:5%;  
 }
@@ -174,10 +170,6 @@ main{
     flex-direction:column;
     justify-content:center;
     align-items: center;
-}
-
-.GreatFirstCard img{
-   
 }
 
 .GreatFirstCard h2{
@@ -249,10 +241,6 @@ main{
     font-weight: bolder;
     font-size: 28px;
     color:#2571b7;
-}
-
-#SecondCardsGruop{
-    
 }
 
 .cardsecond{
@@ -526,15 +514,16 @@ main{
     background-size: cover;
 }
 
-#ImageSection h1{
+#ImageSection p{
     display:flex;
     flex-direction:column;
     justify-content:center;
     text-align:center;
-    padding-top:;
 
     color:#FFFFFF;
     font-weight: bolder;
+
+    font-size: 40px;
 }
 
 #FormSection{
@@ -642,5 +631,11 @@ main{
 
     #SecondCardGreatSection{
         display:none;
+    }
+}
+
+@media(max-width:950px){
+    #ImageSection p{
+        font-size: 20px;
     }
 }
