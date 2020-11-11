@@ -238,9 +238,10 @@ main{
     background-color: #5558af;
 }
 
+/* Aplicando estilização aos segundos cards. */
 
 #SecondCard{
-    padding-top: 10%;
+    padding-top: 5%;
 }
 
 #SecondCard h1{
@@ -358,6 +359,20 @@ main{
     grid-row-end:4;
 }
 
+/* Estilizando a segunda parte dos cards mas para o maior breakpoint */
+    #SecondCardGreatSection{
+        width: 100vw;
+        display:flex;
+        flex-direction:row;
+        justify-content:space-around;
+        align-items: center;
+    }
+
+    .SecondCardsGreat{
+        display:flex;
+        flex-direction:column;
+        background-color: red;
+    }
 /* Parte dos quadros */
 #squares{
    padding-bottom: 15%;
@@ -475,11 +490,21 @@ main{
 @media(min-width:500px){
     #FirstCardSmallSection{
         display:none;
+    }   
+
+    #SecondCardsGruop{
+        display:none;
     }
-}
+    
+}   
+
 
 @media(max-width:500px){
     #CardGreat{
         display:none; 
+    }
+
+    #SecondCardGreat{
+        display:none;
     }
 }
