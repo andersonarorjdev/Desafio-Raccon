@@ -160,7 +160,7 @@ main{
 
     display:grid;
     grid-template-columns:repeat(5, 1fr);
-    grid-template-rows: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
 }
 
 .GreatFirstCard span{
@@ -168,7 +168,7 @@ main{
     grid-column-end:2;
 
     grid-row-start:1;
-    grid-row-end:2;
+    grid-row-end:3;
 
     display:flex;
     flex-direction:column;
@@ -177,7 +177,7 @@ main{
 }
 
 .GreatFirstCard img{
-    padding-top: 20px;
+   
 }
 
 .GreatFirstCard h2{
@@ -201,6 +201,7 @@ main{
     grid-row-end:3;
 
     color:#FFFFFF;
+    margin-bottom: 20px;
 
     padding:0px 0px 20px 0px;
     font-size: 15px;
