@@ -599,6 +599,19 @@ main{
     #SecondCardsGruop{
         display:none;
     }
+
+
+    #squaregroup{
+        display:flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .squarescard{
+        width:22%;
+        padding:50px;
+        margin: 0px;
+    }
     
 }   
 
