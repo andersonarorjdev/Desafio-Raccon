@@ -119,8 +119,123 @@ main{
     
 }
 
+#FirstCardGreatSection{
+  padding-top:5%;  
+}
 
+#FirstCardGreatSection h1{
+    text-align: center;
+    color:#2571b7;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    font-size: 30px;
+}
 
+.SecondSectionText{
+    text-align: center;
+    font-size: 18px;
+    padding:0px 60px;
+    color:#7e7e7e;
+}
+
+.DiferentColorInText{
+    color:orangered;
+}
+
+#CardGreat{
+    padding-top: 6%;
+
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+
+}
+
+.GreatFirstCard{
+    width:45%;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    display:grid;
+    grid-template-columns:repeat(5, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+}
+
+.GreatFirstCard span{
+    grid-column-start:1;
+    grid-column-end:2;
+
+    grid-row-start:1;
+    grid-row-end:2;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+}
+
+.GreatFirstCard img{
+    padding-top: 20px;
+}
+
+.GreatFirstCard h2{
+    grid-column-start:2;
+    grid-column-end:6;
+
+    grid-row-start:1;
+    grid-row-end:2;
+
+    color:#FFFFFF;
+
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.GreatFirstCard p {
+    grid-column-start:2;
+    grid-column-end:6;
+
+    grid-row-start:2;
+    grid-row-end:3;
+
+    color:#FFFFFF;
+
+    padding:0px 0px 20px 0px;
+    font-size: 15px;
+}
+
+.GreatFirstCard:nth-child(1){
+    background-color: #0072c6;
+}
+.GreatFirstCard:nth-child(2){   
+    background-color: #2c5898;
+}
+.GreatFirstCard:nth-child(3){
+    background-color: #207245;
+}
+.GreatFirstCard:nth-child(4){
+    background-color:#cb4a32;
+}
+.GreatFirstCard:nth-child(5){
+    background-color: #733781;
+}
+.GreatFirstCard:nth-child(6){
+    background-color: #00aff0;
+}
+.GreatFirstCard:nth-child(7){
+    background-color: #094ab2;
+}
+.GreatFirstCard:nth-child(8){
+    background-color: #0073c6;
+}
+.GreatFirstCard:nth-child(9){
+    background-color: #0093be;
+}
+.GreatFirstCard:nth-child(10){
+    background-color: #5558af;
+}
 
 
 #SecondCard{
@@ -364,6 +479,6 @@ main{
 
 @media(max-width:500px){
     #CardGreat{
-        display:none;
+        display:none; 
     }
 }
