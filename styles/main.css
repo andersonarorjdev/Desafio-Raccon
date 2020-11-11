@@ -335,20 +335,21 @@ main{
 }
 #FormGroup input{
     width:95%;
-    border:none;
-    padding:10px 0px; 
-}
-#FormGroup input:hover{
-    border:2px solid #00a4ef;
+    border:1px solid transparent;
+    padding:10px 4px;
 }
 
+#FormGroup span input:focus{
+    border:3px solid #00a4ef;
+}
 #FormSection button{
     color:#FFFFFF;
     background-color: #00a4ef;
-    border:1px transparent;
     padding:15px 30vw;
+    border: none;
 
 }
+
 /* Medias queries para a responsividade */
 
 @media(min-width:500px){

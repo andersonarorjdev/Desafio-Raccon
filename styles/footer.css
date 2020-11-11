@@ -1,13 +1,18 @@
-#Footer{
+footer{
+    padding-top: 10%;
+    padding-bottom:5%;
+}
+
+footer span{
     display:flex;
-    flex-direction: column;
+    flex-direction:row;
     justify-content:space-around;
     align-items: center;
 }
 
-#ImagesFooter{
-    display:flex;
-    flex-direction:row;
-    justify-content:space-between;
-
+footer h4{
+    text-align: center;
+    padding-top: 3%;
+    font-size: 16px;
+    color:#b4b4b4;
 }
