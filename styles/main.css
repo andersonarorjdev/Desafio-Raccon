@@ -119,6 +119,10 @@ main{
     
 }
 
+
+
+
+
 #SecondCard{
     padding-top: 10%;
 }
@@ -354,6 +358,12 @@ main{
 
 @media(min-width:500px){
     #FirstCardSmallSection{
+        display:none;
+    }
+}
+
+@media(max-width:500px){
+    #CardGreat{
         display:none;
     }
 }
